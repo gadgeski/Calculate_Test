@@ -3,7 +3,7 @@ def calculate():
     result = float(input("数値を入力してください"))
 
     while True:
-        operation = ("操作を選択(+, -, /, =):")
+        operation = input("操作を選択(+, -, /, =):")
 
         if operation == '=' :
             print(f"計算結果: {result}")
